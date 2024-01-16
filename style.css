@@ -1,16 +1,25 @@
-html {
+body, html {
     font-family: sans-serif;
+    background-image: url("https://images5.alphacoders.com/123/1236681.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    scroll-behavior: smooth
 }
 
 .big-title {
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    /* font-weight: bold; */
+    letter-spacing: 0.1px;
+    padding: 50px;
 }
 
 .small-title {
     font-weight: normal;
     font-size: small;
+    letter-spacing: 0.1px;
 }
 
 /* box border */
@@ -20,6 +29,10 @@ html {
     margin-left: 40px;
     margin-right: 40px;
     padding: 10px;
+}
+
+.chkp {
+    padding-top: -40px;
 }
 
 .inst {
@@ -37,20 +50,26 @@ html {
 }
 
 /* Year and year */
-.yearc {
-    width: 50px;
+.year input {
+    width: 15px;
+    text-align: center;
 }
 
-.gradec {
-    width: 20px;
+#label-year, #label-grade {
+    margin-left: -6px;
+}
+
+.year-label {
+    margin-right: 10px;
 }
 
 /* outer-container */
 
 .outer-container {
     border: 1px solid #000;
-    padding: 10px;
-    margin-left: 647px;
+    padding: 20px;
+    /* padding-left: -200px; */
+    /* margin-left: 500px; */
 }
 
 .space-out {
@@ -92,28 +111,29 @@ html {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    border: 1px solid #ffd500;
     padding: 20px;
 }
 
 .grid-container2 {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    border: 1px solid #ffff00;
     padding: 20px;
 }
 
 .grid-container3 {
     display: grid;
     grid-template-columns: auto auto;
-    border: 1px solid #ffff00;
     padding: 20px;
 }
 
-.grid-items {
-    border: 1px solid #d9ff00;
-    
+.grid-container, .grid-container2, .grid-container3 {
+    /* border: 1px solid #ffd500; */
+    padding: 0;
+    padding-left: 20px;
 }
+/* .grid-items {
+    border: 1px solid #d9ff00;
+} */
 
 /* .bday {
     margin-left: 40%;
@@ -127,9 +147,12 @@ html {
 
 .sex {
     border: 2px solid #000;
-    width: 150px;
+    width: 120px;
+    height: 40px;
+    margin-right: -120px;
     padding: 10px;
 }
+
 
 #male {
     margin-left: 20px;
@@ -146,4 +169,75 @@ html {
     padding: 5px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+/* Next page */
+.rblue-header {
+    text-transform: none;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.form-items {
+    text-align: center;
+}
+
+.last-grade input {
+    width: 400px;
+}
+
+.last-level input {
+    width: 492px;
+}
+
+.last-level, .last-grade {
+    margin-left: 10px;
+}
+
+.shs-leaners {
+    padding: 20px;
+    padding-left: 90px;
+}
+
+.shs-leaners input[type="text"] {
+    width: 500px;
+}
+
+.track {
+    margin-left: 38%;
+}
+.strand {
+    margin-left: 51.5%;
+}
+
+.rinside-box {
+    border: 2px solid #000;
+    padding: 20px;
+    padding-left: 90px;
+}
+
+.rinside-box input[type="checkbox"] {
+    margin-left: 50px;
+}
+
+.lastpart {
+    margin: 100px;
+    margin-left: 15%;
+}
+
+.lastsen {
+    margin-left: 50px;
+}
+
+.signatures label {
+    margin-left: 180px;
+}
+
+.nino {
+    height: 100px;
+    width: 100px;
+    margin-bottom: -140px;
+    margin-left: 480px;
 }
